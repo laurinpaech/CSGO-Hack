@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		106534FB1CE77CA90013D2AE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 106534FA1CE77CA90013D2AE /* main.cpp */; };
 		106535051CE861C60013D2AE /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 106535041CE861C60013D2AE /* ApplicationServices.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,15 +23,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		106534F71CE77CA90013D2AE /* Wall */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Wall; sourceTree = BUILT_PRODUCTS_DIR; };
-		106534FA1CE77CA90013D2AE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; wrapsLines = 0; };
+		106534F71CE77CA90013D2AE /* CSGO Hack macOS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CSGO Hack macOS"; sourceTree = BUILT_PRODUCTS_DIR; };
 		106535041CE861C60013D2AE /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
-		D86084DD1DC26495004A7257 /* manager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = manager.cpp; sourceTree = "<group>"; };
-		D86084DE1DC26495004A7257 /* manager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = manager.hpp; sourceTree = "<group>"; };
-		D86084DF1DC26495004A7257 /* process.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = process.cpp; sourceTree = "<group>"; };
-		D86084E01DC26495004A7257 /* process.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = process.hpp; sourceTree = "<group>"; };
-		D86084E11DC26495004A7257 /* scanner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = scanner.cpp; sourceTree = "<group>"; };
-		D860A9F01DD2FBD5000D74C8 /* keyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = keyboard.h; path = utils/keyboard.h; sourceTree = "<group>"; };
+		61B1936D1ED6FA1C00999C9C /* CSGO Hack */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "CSGO Hack"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,55 +44,25 @@
 			isa = PBXGroup;
 			children = (
 				106535041CE861C60013D2AE /* ApplicationServices.framework */,
-				106534F91CE77CA90013D2AE /* Wall */,
 				106534F81CE77CA90013D2AE /* Products */,
+				61B1936D1ED6FA1C00999C9C /* CSGO Hack */,
 			);
 			sourceTree = "<group>";
 		};
 		106534F81CE77CA90013D2AE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				106534F71CE77CA90013D2AE /* Wall */,
+				106534F71CE77CA90013D2AE /* CSGO Hack macOS */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		106534F91CE77CA90013D2AE /* Wall */ = {
-			isa = PBXGroup;
-			children = (
-				D860A9F11DD2FBDC000D74C8 /* utils */,
-				D86084DC1DC26495004A7257 /* memory */,
-				106534FA1CE77CA90013D2AE /* main.cpp */,
-			);
-			path = Wall;
-			sourceTree = "<group>";
-		};
-		D86084DC1DC26495004A7257 /* memory */ = {
-			isa = PBXGroup;
-			children = (
-				D86084DD1DC26495004A7257 /* manager.cpp */,
-				D86084DE1DC26495004A7257 /* manager.hpp */,
-				D86084DF1DC26495004A7257 /* process.cpp */,
-				D86084E01DC26495004A7257 /* process.hpp */,
-				D86084E11DC26495004A7257 /* scanner.cpp */,
-			);
-			path = memory;
-			sourceTree = "<group>";
-		};
-		D860A9F11DD2FBDC000D74C8 /* utils */ = {
-			isa = PBXGroup;
-			children = (
-				D860A9F01DD2FBD5000D74C8 /* keyboard.h */,
-			);
-			name = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		106534F61CE77CA90013D2AE /* Wall */ = {
+		106534F61CE77CA90013D2AE /* CSGO Hack macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 106534FE1CE77CA90013D2AE /* Build configuration list for PBXNativeTarget "Wall" */;
+			buildConfigurationList = 106534FE1CE77CA90013D2AE /* Build configuration list for PBXNativeTarget "CSGO Hack macOS" */;
 			buildPhases = (
 				106534F31CE77CA90013D2AE /* Sources */,
 				106534F41CE77CA90013D2AE /* Frameworks */,
@@ -109,9 +72,9 @@
 			);
 			dependencies = (
 			);
-			name = Wall;
+			name = "CSGO Hack macOS";
 			productName = Wall;
-			productReference = 106534F71CE77CA90013D2AE /* Wall */;
+			productReference = 106534F71CE77CA90013D2AE /* CSGO Hack macOS */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -121,14 +84,14 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = nadp;
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					106534F61CE77CA90013D2AE = {
 						CreatedOnToolsVersion = 7.3;
 					};
 				};
 			};
-			buildConfigurationList = 106534F21CE77CA90013D2AE /* Build configuration list for PBXProject "Wall" */;
+			buildConfigurationList = 106534F21CE77CA90013D2AE /* Build configuration list for PBXProject "CSGO Hack macOS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -140,7 +103,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				106534F61CE77CA90013D2AE /* Wall */,
+				106534F61CE77CA90013D2AE /* CSGO Hack macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -150,7 +113,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				106534FB1CE77CA90013D2AE /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +221,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		106534F21CE77CA90013D2AE /* Build configuration list for PBXProject "Wall" */ = {
+		106534F21CE77CA90013D2AE /* Build configuration list for PBXProject "CSGO Hack macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				106534FC1CE77CA90013D2AE /* Debug */,
@@ -268,7 +230,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		106534FE1CE77CA90013D2AE /* Build configuration list for PBXNativeTarget "Wall" */ = {
+		106534FE1CE77CA90013D2AE /* Build configuration list for PBXNativeTarget "CSGO Hack macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				106534FF1CE77CA90013D2AE /* Debug */,
