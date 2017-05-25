@@ -1,28 +1,32 @@
-# Project csgoGlow, a 100% FREE and OPEN-SOURCE wallhack for OSX
+# CSGO External Hack for macOS - Triggerbot + Wallhack
 
-**Thanks to @gabsens and @e-retailer’s contribution to this project**
+Things I still want to add:
 
-### Hello World
-if you are newbie and have never use Xcode, go and watch @gabsens’s [Video at Youtube](https://www.youtube.com/watch?v=AefIiBg2HKU)
+- Multithreading for dual use of Wallhack + Triggerbot while shooting
+- Different shooting modes for the Triggerbot
+- Aimbot
 
-don't get scammed by people trying to make money off of this hack!
+### Hello Friend!
+If you have never used Xcode, go and watch @gabsens’s [Video at Youtube](https://www.youtube.com/watch?v=AefIiBg2HKU)
 
 ### How to run?
-clone it from github and run it with **ROOT**.
+Clone it from Github and run it as root
 
 ### What if CS:GO updates?
 Nothing. Since there is pattern scanning implemented you don't need to update any Offset-Pointers.
 
 ### Is it safe?
-Maybe, depends on Gaben
+Should be safe against VAC.
+Depending on how you play and use it also for Overwatch.
 
-### More features?
-No! We won't implement aimbot, bunnyhop or other stuff to it. This is just a native CS:GO Wallhack.
 
-But you can refer to https://csgoglow.hipchat.com/invite/646884/2885f39b8a11953a3039070fe8325713 signup and ask questions about other features. The issue Tracker should be an Issue tracker.
+_____________________
 
-## About `Internal`:
-sorry for another delay, there some new trouble.
+This is a fork from csgoGlow and building on top of it.
+Depending on how it will evolve in the future I might change the Codebase.
+I'm very thankful for their work, it helped me a lot in my understanding of Game Hacking.
+
+**Thanks to iseekwonderful, gabsens, e-retailer, alKalisch and the others, who contributed to csgoGlow.**
 
 ## Licenses
 [AGPLv3](https://www.gnu.org/licenses/agpl-3.0.html)
